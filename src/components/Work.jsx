@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 // img
-// import Img1 from "../assets/portfolio-img1.png";
 import Img1 from "../assets/convite.png";
 import Img2 from "../assets/nike.png";
 import Img3 from "../assets/github.png";
 // icons
 import { FaGithub } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 
 function navigateProjects() {
   window.open("https://github.com/alexandrevelozo", "_blank");
@@ -85,6 +85,20 @@ const Work = () => {
                       items-center"
                 >
                   <FaGithub className="w-5 h-5" />
+                </a>
+              </div>
+              <div
+                className="absolute -bottom-full left-24 
+              group-hover:bottom-6 transition-all duration-700 z-50"
+              >
+                <a
+                  target={"_blank"}
+                  href="http://convite-festa.vercel.app/"
+                  rel="noreferrer"
+                  className="btn w-8 h-8 flex justify-center
+                      items-center"
+                >
+                  <CgWebsite className="w-5 h-5" />
                 </a>
               </div>
             </div>
@@ -183,6 +197,20 @@ const Work = () => {
                       items-center"
                 >
                   <FaGithub className="w-5 h-5" />
+                </a>
+              </div>
+              <div
+                className="absolute -bottom-full left-24 
+              group-hover:bottom-6 transition-all duration-700 z-50"
+              >
+                <a
+                  target={"_blank"}
+                  href="https://uiclone-github.netlify.app/"
+                  http:rel="noreferrer" //convite-festa.vercel.app/
+                  className="btn w-8 h-8 flex justify-center
+                      items-center"
+                >
+                  <CgWebsite className="w-5 h-5" />
                 </a>
               </div>
             </div>

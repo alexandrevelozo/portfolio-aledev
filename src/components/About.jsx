@@ -93,7 +93,7 @@ const About = () => {
                 Contate me
               </button>
               <a href="#work" className="text-gradient btn-link">
-                Meu Portfolio
+                Meus Projetos
               </a>
             </div>
           </motion.div>

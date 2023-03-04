@@ -47,11 +47,11 @@ const Banner = () => {
               <span className="text-white mr-4">EU SOU</span>
               <TypeAnimation
                 sequence={[
-                  "DESENVOLVEDOR FULLSTACK",
+                  "DEV FULLSTACK",
                   2000,
-                  "DESENVOLVEDOR REACT",
+                  "DEV REACT",
                   2000,
-                  "DESENVOLVEDOR NODE",
+                  "DEV NODE",
                   2000,
                 ]}
                 speed={50}
@@ -75,7 +75,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto
+              className="flex max-w-max gap-x-6 items-center mb-6 mx-auto
             lg:mx-0"
             >
               <button onClick={navigateContact} className="btn btn-lg">

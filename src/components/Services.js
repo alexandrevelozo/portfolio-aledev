@@ -13,12 +13,12 @@ const services = [
   {
     name: "Frontend",
     description:
-      "HTML, CSS, JavaScript, React, Next.js, Angular, Vue, TailwindCSS, Styled Components, SEO",
+      "HTML, CSS, JavaScript, React, Next.js, TailwindCSS, Styled Components, SEO",
     icon: <FaReact />,
   },
   {
     name: "Backend",
-    description: "Node.js, Express, Fastify, REST API, GraphQL, Prisma, Docker",
+    description: "Node.js, Express, Filas, Event Bus, GraphQL, Prisma, Docker",
     icon: <FaNode />,
   },
   {

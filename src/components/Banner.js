@@ -1,6 +1,8 @@
 import React from "react";
 // images
 import Image from "../assets/avatar.svg";
+
+import newImage from "../assets/profile-atualizado.png";
 // icons
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 // type animation
@@ -123,7 +125,7 @@ const Banner = () => {
             className="hidden lg:flex flex-1 max-w-[320px]
           lg:max-w-[482px]"
           >
-            <img src={Image} alt="" />
+            <img className="rounded-full border-4 border-purple-400 hover:scale-90 transition-transform duration-300" src={newImage} alt="" />
           </motion.div>
         </div>
       </div>

@@ -18,7 +18,7 @@ const services = [
   },
   {
     name: "Backend",
-    description: "Node.js, Express, Filas, Event Bus, GraphQL, Prisma, Docker",
+    description: "Node.js, Express, GraphQL, Apollo Server, Docker",
     icon: <FaNode />,
   },
   {
